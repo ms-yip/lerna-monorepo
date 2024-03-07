@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx --no-install commitlint --edit "$1"
+npx --no-install commitlint --edit "$1" # 用于编辑指定的提交消息文件
+# npx commitlint -E HUSKY_GIT_PARAMS # 用于在提交钩子中验证提交消息的格式
