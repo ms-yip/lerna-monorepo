@@ -2,6 +2,7 @@
 
 module.exports = components;
 
-function components() {
+function components () {
+  console.log('change1');
   return 'Hello from components';
 }
