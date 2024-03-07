@@ -1,0 +1,22 @@
+{
+  "name": "@mo-demo/utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Yvonne",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@mo-demo/utils.test.js"
+  }
+}
