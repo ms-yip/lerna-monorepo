@@ -5,11 +5,9 @@
     "@commitlint/cli": "^19.0.3",
     "@commitlint/config-conventional": "^19.0.3",
     "husky": "^8.0.0",
-    "lerna": "^8.1.2",
-    "lint-staged": "^15.2.2"
+    "lerna": "^8.1.2"
   },
   "scripts": {
-    "prepare": "husky install",
-    "commitlint": "commitlint --config commitlint.config.js -e -V"
+    "prepare": "husky install"
   }
 }
