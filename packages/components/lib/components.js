@@ -11,5 +11,6 @@ function components () {
   console.log('change6');
   console.log('change7');
   console.log('change8');
+  con
   return 'Hello from components';
 }
