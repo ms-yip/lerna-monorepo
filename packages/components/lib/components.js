@@ -7,7 +7,7 @@ function components () {
   console.log('change2');
   console.log('change3');
   console.log('change4');
-  console.log('change4');
-  console.log('change4');
+  console.log('change5');
+  console.log('change6');
   return 'Hello from components';
 }
