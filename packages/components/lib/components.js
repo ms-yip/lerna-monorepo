@@ -9,5 +9,6 @@ function components () {
   console.log('change4');
   console.log('change5');
   console.log('change6');
+  console.log('change7');
   return 'Hello from components';
 }
