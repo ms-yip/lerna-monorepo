@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = components;
-
+// module.exports = components;
+export default components;
 function components () {
   console.log('change1');
   console.log('change2');
@@ -11,7 +11,5 @@ function components () {
   console.log('change6');
   console.log('change7');
   console.log('change8');
-  con
-  ；
   return 'Hello from components';
 }
