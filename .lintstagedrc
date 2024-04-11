@@ -1,3 +1,3 @@
 {
-  "packages/**/*.{js,cjs,ts,html,json,css,scss,vue}": ["npx eslint --fix", "git add"],
+  "packages/**/*.{js,cjs,ts,html,json,css,scss,vue}": ["npx eslint --fix"]
 }
